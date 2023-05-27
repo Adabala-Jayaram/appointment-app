@@ -1,0 +1,94 @@
+.comment-item {
+  margin-left: 0px;
+  border-bottom: 1px solid #cbd2d9;
+}
+.profile-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-pic-bg {
+  background-color: orange;
+  border-width: 0px;
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-size: 16px;
+  padding-top: 9px;
+  border-radius: 40px;
+  text-align: center;
+}
+.commented-by {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  margin-left: 8px;
+  font-weight: 800;
+  margin-right: 8px;
+}
+.comment-time {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #7e858e;
+}
+.comment-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.subscribe-sec {
+  display: flex;
+  align-items: center;
+}
+.like-img {
+  width: 25px;
+  margin-right: 10px;
+}
+.like {
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-width: 0px;
+  background-color: white;
+}
+button {
+  background-color: white;
+  border-width: 0px;
+}
+.delete-btn {
+  margin-left: auto;
+}
+.delete-img {
+  width: 20px;
+  margin-left: auto;
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
