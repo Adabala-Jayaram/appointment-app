@@ -24,7 +24,7 @@ const CommentItem = props => {
       </div>
       <p className="comment-description">{commentText}</p>
       <div className="subscribe-sec">
-        <button>
+        <button type="button">
           <img src={likeImgUrl} className="like-img" alt="like" />
         </button>
 
@@ -32,12 +32,11 @@ const CommentItem = props => {
           Like
         </button>
         <div className="delete-btn">
-          <button data-testid="delete">
+          <button data-testid="delete" onClick={onDelete}>
             <img
               src="https://assets.ccbp.in/frontend/react-js/comments-app/delete-img.png"
               alt="delete"
               className="delete-img"
-              onClick={onDelete}
             />
           </button>
         </div>
